@@ -3,19 +3,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 510vh;
+    height: 300vh;
     margin: 0;
   }
   
   .calendar {
     display: grid;
     grid-template-columns: repeat(6, 100px); /* Muuda veergude arvu vastavalt soovile */
-    gap: 10px;
+    gap: 60px;
   }
   
   .calendar div {
-    width: 100px;
-    height: 100px;
+    margin-top: -50px;
+    width: 150px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
